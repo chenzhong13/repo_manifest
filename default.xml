@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="Admin"
+           fetch="ssh://zhchen@192.168.1.211:29418/" />
+
+  <default revision="master"
+           remote="Admin"
+           sync-j="4" />
+  <project path="build_script" name="AdiminClient" revision="master">
+  </project>
+
+</manifest>
